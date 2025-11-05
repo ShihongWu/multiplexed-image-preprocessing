@@ -11,15 +11,15 @@ To automate the end-to-end preprocessing of high-plex microscopy images, includi
 - Mesmer-based segmentation (nuclear and whole-cell)
 
 ## Folder Structure
-multiplexed-image-preprocessing/
-├── scripts/         # Bash, Python, and Nextflow scripts for pipeline stages
-├── notebooks/       # Exploratory Jupyter or R Markdown notebooks
-├── data/
-│   ├── raw/         # Raw CellDIVE or OME-TIFF files
-│   └── processed/   # Processed outputs, masks, tiles
-├── figures/         # Output figures and diagnostics
-├── README.md        # Project description and usage
-└── .gitignore       # Files to exclude from version control
+multiplexed-image-preprocessing/ \
+├── scripts/         # Bash, Python, and Nextflow scripts for pipeline stages \
+├── notebooks/       # Exploratory Jupyter or R Markdown notebooks \
+├── data/ \
+│   ├── raw/         # Raw CellDIVE or OME-TIFF files \
+│   └── processed/   # Processed outputs, masks, tiles \
+├── figures/         # Output figures and diagnostics \
+├── README.md        # Project description and usage \
+└── .gitignore       # Files to exclude from version control \
 
 ## Usage
 
