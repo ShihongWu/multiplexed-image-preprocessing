@@ -1,0 +1,8 @@
+workflow:
+  start-at: segmentation
+  stop-at: segmentation
+  viz: false
+  background: true
+  segmentation: mesmer
+options:
+  mesmer: --compartment nuclear --nuclear-channel 0 #--membrane-channel 1
